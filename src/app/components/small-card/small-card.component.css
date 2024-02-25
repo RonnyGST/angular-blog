@@ -1,0 +1,25 @@
+.container {
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.container__content {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__photo > img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.container__title > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__separator {
+    margin-top: 10px;
+}
