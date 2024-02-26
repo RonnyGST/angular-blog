@@ -1,7 +1,7 @@
 <div class="container">
 
     <div class="container__content">
-        <a href="#">
+        <a [routerLink]="['content', Id]">
             <div class="container__photo">
                 <img 
                 src={{photoCover}}
@@ -10,7 +10,7 @@
             </div>
         </a>
 
-        <a href="#">
+        <a href="/content">
             <div class="container__title">
                 <h1>{{cardTitle}}</h1>
             </div>
